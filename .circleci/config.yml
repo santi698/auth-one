@@ -1,7 +1,7 @@
 defaults: &defaults
   working_directory: ~/auth-one
   docker:
-    - image: circleci/ruby:2.4.1-node
+    - image: circleci/ruby:2.4.1
 version: 2
 jobs:
   checkout_code:
